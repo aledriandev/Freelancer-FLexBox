@@ -29,10 +29,7 @@ img {
 }
 
 .container{
- 	width: 100%;
- 	margin: 0 auto;
- 	text-align: center;
- 	padding: 30px;
+ 	display: flex;
 }
 
 header{
@@ -71,6 +68,9 @@ h2{
   	transform: translate(-50%, -50%);
 }
 
+.menu.container{
+	justify-content: flex-start;
+}
 .menu a{
 	display: inline-block;
 	color: #fff;
@@ -98,9 +98,16 @@ h2{
 }
 
 #presentation{
-	margin: auto;
+	height: 600px;
+	margin-top: 100px;
 	background-color: #14b78e;
-	overflow: auto;
+	background-size: cover;
+	background-attachment: fixed;
+
+	justify-content: center;
+    align-items: center; 
+ 	flex-direction: column;
+	
 	color: white;
 }
 
