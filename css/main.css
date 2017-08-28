@@ -1,0 +1,356 @@
+/*
+ * Estilos de tu proyecto
+ */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family:  'Merriweather Sans';
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container{
+ 	width: 100%;
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	padding: 30px;
+}
+
+header{
+	width: 100%;
+ 	background-color: #003c47;
+ 	position: fixed;
+ 	top: 0;
+ 	z-index: 100;
+ 	font-family: "Baloo Paaji"
+}
+
+h2{
+	font-size: 400%;
+}
+
+.header1 .title{
+	font-size: 60%;
+}
+
+.header1{
+	height: 120px;
+}
+
+.header2 .title{
+	font-size: 50%;
+}
+
+.header2{
+	height: 80px;
+}
+
+.menu{
+	position: absolute;
+ 	right: -50px;
+ 	top: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+.menu a{
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	background-color: #14b78e;
+}
+
+.title{
+ 	color: #fff;
+ 	position: absolute;
+ 	left: 200px;
+ 	top: 50%;
+  	transform: translate(-50%, -50%);
+ 	padding: 0 30px;
+ 	font-size: 80%;
+}
+
+.selection{
+	background-color: #14b78e;
+}
+
+#presentation{
+	margin: auto;
+	background-color: #14b78e;
+	overflow: auto;
+	color: white;
+}
+
+
+.presentation1{
+	margin-top: 120px;
+}
+
+.presentation2{
+	margin-top: 80px;
+}
+
+h1{
+	font-weight: 800;
+	font-size: 300%;
+}
+
+hr{
+	width: 100px;
+	display: inline-block;
+}
+
+.line-white{
+	height: 5px;
+	background-color: white;
+	border: none;
+	margin-bottom: 10px;
+}
+
+.line-black{
+	height: 5px;
+	background-color: #003c47;
+	border: none;
+	margin-bottom: 10px;
+}
+
+#portafolio{
+	background-color: white;
+	color: #003c47;
+	height: 1000px;
+	overflow: hidden;
+}
+
+#img-portafolio{
+	position: absolute;
+}
+
+.div-portafolio{
+	position: relative;
+}
+
+.expent{
+	background-color: rgb(20, 183, 142);
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 0.9s ease-in-out;
+}
+	
+.expent:hover{
+	opacity: 0.8;
+}
+
+.expent span{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.fondo{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	padding: 20px;	 
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	color: #003c47;
+	text-align: center;
+	overflow-y: scroll;
+}
+
+.fondo::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.fondo::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+	border-radius: 3px;
+}
+
+.fondo::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+	border: 2px solid #555555;
+}
+
+.div-img{
+	width: 75%;
+}
+
+.div-img img{
+	width: 100%;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+#portafolio, #about, #contact{
+	padding-top: 50px;
+	font-size: 120%;
+}
+
+.cerrar{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 10000;
+	width: 100px;
+	height: 100px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.cerrar:hover{
+	opacity: 1;
+}
+
+.div-img a{
+	color: #14b78e;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.div-img a:hover {
+	color: #003c47;
+}
+
+.div-img p{
+	margin: 20px 0;
+}
+
+.btn-close{
+	background-color: transparent;
+	border: 2px solid #003c47;
+	color: #003c47;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 120%;
+}
+
+.btn-close:hover{
+	background-color: rgba(20, 183, 142, 0.3);
+	cursor: pointer; 
+}
+
+#about{
+	margin: auto;
+	background-color: #14b78e;
+	overflow: auto;
+	color: white;
+}
+
+#download{
+	border: 4px solid white;
+	border-radius: 5px;
+	background-color: transparent;
+	color: white;
+	padding: 10px 30px;
+	font-size: 100%;
+	cursor: pointer;
+}
+
+#download p{
+	font-family: "Asap";
+	padding: 20px;
+}
+#download:hover{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+#contact-dates{
+	color:  #003c47;
+}
+
+form{
+	width: 50%;
+	padding: 10px;
+	text-align: left;
+}
+
+form input{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin: 10px;
+	font-family: "Asap";
+	font-size: 90%;
+}
+
+form button{
+	background-color:  #14b78e;
+	border-radius: 10px;
+	padding: 10px 20px;
+	margin: 10px;
+	border: none;
+	cursor: pointer;
+	font-family: "Asap";
+	font-size: 100%;
+	color: white;
+}
+
+#contact-web{
+	color: white;
+	background-color:  #003c47;
+	height: 300px;
+}
+
+.content{
+	font-size: 84%;
+}
+
+.content a{
+	color: #14b78e;
+	text-decoration: none;
+}
+
+.circle{
+	border: 3px solid white;
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	margin: 5px;
+	border-radius: 50%;
+}
+
+.col-4 img{
+	width: 100%;
+}
+
+footer{
+ 	text-align: center;
+  	height: 70px;
+  	background-color: #010d1c;
+  	color: white;
+  	padding: 2%;
+}

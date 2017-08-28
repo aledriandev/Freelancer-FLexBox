@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Freelancer</title>
+	<!-- Enlaza aquí tu CSS común y de tu proyecto -->
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="icons/css/font-awesome.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Prompt:100,200,300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Exo|Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+</head>
+<body>
+	<!-- Escribe tu código aquí -->
+	<header>
+		<div id="headerHTML" class="container header1">
+			<div class="title">
+				<h2>START BOOTSTRAP</h2>
+			</div>
+			<div class="menu">
+				<a id="aPortafolio" href="#portafolio" class="link">PORTAFOLIO</a>
+				<a id="aAbout"	href="#about" class="link">ABOUT</a>
+				<a id="aContact" href="#contact" class="link">CONTACT</a>
+			</div>
+		</div>
+	</header>
+
+	<section id="presentation">
+		<div class="container presentation1">
+			<img src="assets/images/profile.png">
+			<h1>START BOOTSTRAP</h1>
+			<hr class="line-white">
+			<span class="fa fa-star fa-2x" aria-hidden="true"></span>
+			<hr class="line-white">
+			<p>Web Developer - Graphic Artist - User Experience Designer</p>
+		</div>
+	</section>
+	
+	<section id="portafolio">
+		<div class="container">
+			<h1>PORTFOLIO</h1>
+			<hr class="line-black">
+			<span class="fa fa-star fa-2x" aria-hidden="true"></span>
+			<hr class="line-black">
+			<div id="img-portafolio"></div>
+			<div id="text-project" style="display:none">
+				<p class='project-text'>Use this area of the page to describe yout project. The icon above is part of a free icon set by <a href='#'>Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for onli $12!</p>
+				<p class='project-data'>Client: <a href='#'>Start Bootstrap</a>  Date: <a href='#'>Agust 2017 </a> Service: <a href='#'>Web Development</a></p>
+			</div>
+		</div>
+	</section>
+	
+	<section id="about">
+		<div class="container">
+			<h1>ABOUT</h1>
+			<hr class="line-white">
+			<span class="fa fa-star fa-2x" aria-hidden="true"></span>
+			<hr class="line-white">
+			<div class="row">
+				<p class="text-about col-6">
+					Freelncer is a free bootstrap theme create by Start Bootstrap. The dowload includes the complete surce files incuding HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.
+				</p>
+				<p class="text-about col-6">
+					Whether you're student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share you projects, this template is the perfect starting point.
+				</p>
+			</div>
+			<button id="download">
+				<span class="fa fa-download" aria-hidden="true"></span>
+				Download Theme
+			</button>
+		</div>
+	</section>
+	
+	<section id="contact">
+		<div class="container" id="contact-dates">
+			<h1>CONTACT ME</h1>
+			<hr class="line-black">
+			<span class="fa fa-star fa-2x" aria-hidden="true"></span>
+			<hr class="line-black">
+			<form>
+				<input class="contact-me" type="text" placeholder="Name">
+				<input class="contact-me" type="text" placeholder="Email Address">
+				<input class="contact-me" type="text" placeholder="Phone Number">
+				<input class="contact-me" type="text" placeholder="Message">
+				<button type="submit">Send</button> 
+			</form>
+		</div>
+		<div id="contact-web" class="container">
+			<div class="row">
+				<div class="col-4">
+					<div class="content">
+						<h4>LOCATION</h4>
+						<p>3281 Melrose Place</p>
+						<p>Beverly Hills, CA 90210</p>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="content">
+						<h4>AROUND THE WEB</h4>
+						<div id="around-web">
+							<div class="circle">
+								<span class="fa fa-facebook" aria-hidden="true"></span>
+							</div>
+							<div class="circle">
+								<span class="fa fa-google-plus" aria-hidden="true"></span>
+							</div>
+							<div class="circle">
+								<span class="fa fa-twitter" aria-hidden="true"></span>
+							</div>
+							<div class="circle">
+								<span class="fa fa-linkedin" aria-hidden="true"></span>
+							</div>
+							<div class="circle">
+								<span class="fa fa-dribbble" aria-hidden="true"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="content">
+						<h4>ABOUT FREELANCER</h4>
+						<p>Freelance is a free to use, open source Bootstrap theme created by 
+							<a href="#">Start Bootstrap</a>.
+						</p>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+	
+	<footer>
+		<p>Copyright © Your Website 2017</p>
+	</footer>
+	
+	<!-- Enlaza aquí tu archivo JS -->
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
